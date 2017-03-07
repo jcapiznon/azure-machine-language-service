@@ -1,0 +1,14 @@
+{
+  "serviceUri": {
+	"label": "Service URI",
+	"type": "String",
+	"required": true,
+	"help": "Endpoint of the machine learning webservice (Request/Response method)"
+  },
+  "apiKey": {
+	"label": "API Key",
+	"type": "Password",
+	"required": true,
+	"help": "Publisher API key to be used for authenticating requests."
+  }
+}
